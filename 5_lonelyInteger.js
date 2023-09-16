@@ -9,8 +9,8 @@
 //logic and step by step solution.
 //we will have nested loop on the input array
 //first loop will go through the input array 
-//second loop will also go through same array but will start from the 0 index. so netsted loop will start from 0 in every occurence of loop.
-//in second loop we will have condition if(arr[i] === arr[j]) then count variable will be incresed by 1. so count variable will be incresed by 2 when element occur twice in the array otherwise count variable will be incresed by 1 because element occur once in the array.
+//second loop will also go through same array and will start from the 0 index in every occurence of the loop.
+//in second loop we will have condition if(arr[i] === arr[j]) then count variable will be incresed by 1. so count variable will be incresed by 2 when element occur twice in the array otherwise count variable will be incresed by 1 when element occurs once in the array.
 //then we write another condition that if(count === 1) then arr[i] value will be returned otherwise count var will be set to 0 and loop will continue.
 
 function lonelyinteger(a){ 
