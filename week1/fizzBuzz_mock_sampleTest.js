@@ -24,19 +24,3 @@ function fizzBuzz(n) {
         }   
     }
 }
-
-function findMedian(arr) {
-    // Write your code here
-    
-    let sortedArr = arr.sort((a, b) => a - b);
-    console.log(sortedArr)
-    let medianIndex = (sortedArr.length/2);
-    console.log(medianIndex);
-    console.log(Math.floor(medianIndex));
-    console.log(sortedArr[medianIndex]);
-    return sortedArr[medianIndex];
-
-}
-
-let output = findMedian([0, 1, 2, 4, 6, 5, 3])
-console.log(output);
